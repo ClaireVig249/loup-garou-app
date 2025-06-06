@@ -34,7 +34,7 @@
 }
 .container p {
     font-size: 2rem;
-    margin: 0px;
+    margin: 0;
 }
 
 .player-list {
@@ -114,11 +114,11 @@
     background-size: cover;
     background-position: center;
     z-index: -1;
-    background-image: url('./assets/images/background-day.png');
+    background-image: url('../assets/images/background-day.png');
 }
 
 .background-night {
-    background-image: url('./assets/images/background-night.png');
+    background-image: url('../assets/images/background-night.png');
 }
 
 /* Style de la zone de chat */
@@ -179,7 +179,7 @@
 }
 
 .chat-content p {
-    margin: 0px;
+    margin: 0;
     float: left;
 }
 
@@ -231,7 +231,7 @@
     left: 10px;
     width: 185px; /* Largeur de 30% de l'écran */
     height: 185px; /* Hauteur de 40% de l'écran */
-    background: url('./assets/images/hunter.webp') no-repeat center center;
+    background: url('../assets/images/hunter.webp') no-repeat center center;
     background-size: cover;
     border: 3px solid #5A3E1B; /* Bordure en bois */
     border-radius: 15px;
@@ -269,10 +269,10 @@
 }
 
 /* Icônes spécifiques */
-.icon-major { background-image: url('./assets/images/icons/crown.jpg'); }
-.icon-lovers { background-image: url('./assets/images/icons/heart.jpg'); }
-.icon-death-potion { background-image: url('./assets/images/icons/potion_m.jpg'); }
-.icon-life-potion { background-image: url('./assets/images/icons/potion_v.jpg'); }
+.icon-major { background-image: url('../assets/images/icons/crown.jpg'); }
+.icon-lovers { background-image: url('../assets/images/icons/heart.jpg'); }
+.icon-death-potion { background-image: url('../assets/images/icons/potion_m.jpg'); }
+.icon-life-potion { background-image: url('../assets/images/icons/potion_v.jpg'); }
 
 /* Zone du tableau des joueurs */
 .player-table {
@@ -318,7 +318,7 @@
 .status-icon {
     width: 40px;
     height: 40px;
-    background: url('./assets/images/undefined.png') no-repeat center center;
+    background: url('../assets/images/undefined.png') no-repeat center center;
     background-size: cover;
     position: relative;
     cursor: pointer;
@@ -347,35 +347,35 @@
 }
 
 .player-chasseur {
-    background: url('./assets/images/chasseur.webp') no-repeat center center;
+    background: url('../assets/images/chasseur.webp') no-repeat center center;
     background-size: cover;
 }
 .player-voyante {
-    background: url('./assets/images/voyante.png') no-repeat center center;
+    background: url('../assets/images/voyante.png') no-repeat center center;
     background-size: cover;
 }
 .player-cupidon {
-    background: url('./assets/images/cupidon.png') no-repeat center center;
+    background: url('../assets/images/cupidon.png') no-repeat center center;
     background-size: cover;
 }
 .player-loup {
-    background: url('./assets/images/loup.png') no-repeat center center;
+    background: url('../assets/images/loup.png') no-repeat center center;
     background-size: cover;
 }
 .player-petitefille {
-    background: url('./assets/images/petitefille.png') no-repeat center center;
+    background: url('../assets/images/petitefille.png') no-repeat center center;
     background-size: cover;
 }
 .player-sorciere {
-    background: url('./assets/images/sorciere.png') no-repeat center center;
+    background: url('../assets/images/sorciere.png') no-repeat center center;
     background-size: cover;
 }
 .player-voleur {
-    background: url('./assets/images/voleur.png') no-repeat center center;
+    background: url('../assets/images/voleur.png') no-repeat center center;
     background-size: cover;
 }
 .player-undefined {
-    background: url('./assets/images/undefined.png') no-repeat center center;
+    background: url('../assets/images/undefined.png') no-repeat center center;
     background-size: cover;
 }
 

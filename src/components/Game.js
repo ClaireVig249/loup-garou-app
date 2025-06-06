@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import "../styles.css";
+import "./styles.css";
 import Clock from "./Game/Clock";
 import Player from "./Game/Player";
 import Info from "./Game/Info";
